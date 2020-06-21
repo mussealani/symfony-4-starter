@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8eba5c1a1ddc1acbff1d2802a73728a1",
+    "content-hash": "d9d282b1e04bf44f8fe7f7f3783eca40",
     "packages": [
         {
             "name": "cocur/slugify",
@@ -4198,6 +4198,67 @@
                 "mailer"
             ],
             "time": "2019-11-12T09:31:26+00:00"
+        },
+        {
+            "name": "symfony/acl-bundle",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/acl-bundle.git",
+                "reference": "ed1e87aefaa391598e0960a9864d8f1a94643a88"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/acl-bundle/zipball/ed1e87aefaa391598e0960a9864d8f1a94643a88",
+                "reference": "ed1e87aefaa391598e0960a9864d8f1a94643a88",
+                "shasum": ""
+            },
+            "require": {
+                "ext-xml": "*",
+                "php": "^7.2.9",
+                "symfony/dependency-injection": "^4.4|^5.0",
+                "symfony/http-kernel": "^4.4|^5.0",
+                "symfony/security-acl": "^3.0",
+                "symfony/security-bundle": "^4.4|^5.0"
+            },
+            "require-dev": {
+                "doctrine/doctrine-bundle": "^1.6.12|^2.0",
+                "symfony/console": "^4.4|^5.0",
+                "symfony/framework-bundle": "^4.4|^5.0",
+                "symfony/phpunit-bridge": "^5.0",
+                "symfony/yaml": "^4.4|^5.0"
+            },
+            "suggest": {
+                "doctrine/doctrine-bundle": "To use the default dbal configuration"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Bundle\\AclBundle\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony AclBundle",
+            "homepage": "https://symfony.com",
+            "time": "2020-01-09T16:13:29+00:00"
         },
         {
             "name": "symfony/asset",

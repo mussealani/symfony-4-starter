@@ -23,4 +23,6 @@ return [
     Sonata\UserBundle\SonataUserBundle::class => ['all' => true],
     Sonata\DoctrineORMAdminBundle\SonataDoctrineORMAdminBundle::class => ['all' => true],
     Symfony\Bundle\SwiftmailerBundle\SwiftmailerBundle::class => ['all' => true],
+    Symfony\Bundle\AclBundle\AclBundle::class => ['all' => true],
+    App\Application\Sonata\UserBundle\ApplicationSonataUserBundle::class => ['all' => true],
 ];
